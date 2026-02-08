@@ -5,7 +5,7 @@
 	<name>Jalali</name>
 	<summary>Adds Jalali (Shamsi) Support to NextCloud</summary>
 	<description>Jalali is the most accurate solar calendar widely used in Iran and middle east.</description>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<licence>agpl</licence>
 	<author mail="apps.nextcloud.com@tyyi.net" homepage="https://tyyi.net">Mohammad R. Tayyebi</author>
 	<namespace>Jalali</namespace>
@@ -15,7 +15,7 @@
 	<category>organization</category>
 	<bugs>https://github.com/tayyebi</bugs>
 	<dependencies>
-		<nextcloud min-version="29" max-version="29"/>
+		<nextcloud min-version="29" max-version="31"/>
 	</dependencies>
 	<navigations>
 		<navigation>
