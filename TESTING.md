@@ -148,6 +148,18 @@ Features:
 - Performance tests
 - Accessibility tests
 
+## CI/CD Fixes
+
+### Bootstrap Configuration
+The test bootstrap (`tests/bootstrap.php`) is designed to work in two environments:
+1. **Full NextCloud installation**: Loads NextCloud core bootstrap and hooks
+2. **Standalone CI/CD**: Runs tests without NextCloud core dependencies
+
+This allows the test suite to run in GitHub Actions without requiring a full NextCloud server setup.
+
+### NPM Configuration
+The workflow uses `npm install` instead of `npm ci` since the project doesn't commit lock files. This is suitable for a development-focused app where lock file management is optional.
+
 ## Adding New Tests
 
 ### Adding a PHP Unit Test
