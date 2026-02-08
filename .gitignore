@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+js/
+css/
+
+# Lock files
+composer.lock
+package-lock.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+.nyc_output/
