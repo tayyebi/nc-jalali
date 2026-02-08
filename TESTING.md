@@ -158,7 +158,19 @@ The test bootstrap (`tests/bootstrap.php`) is designed to work in two environmen
 This allows the test suite to run in GitHub Actions without requiring a full NextCloud server setup.
 
 ### NPM Configuration
-The workflow uses `npm install` instead of `npm ci` since the project doesn't commit lock files. This is suitable for a development-focused app where lock file management is optional.
+The workflow uses `npm install` instead of `npm ci` for pragmatic reasons:
+- **Current State**: Project doesn't commit lock files
+- **Tradeoff**: Non-deterministic builds vs. immediate CI functionality
+- **Recommendation**: For production apps, add `package-lock.json` and switch to `npm ci` for reproducible builds
+- **Current Rationale**: Acceptable for development-stage app where getting CI working is the priority
+
+To improve build determinism in the future:
+```bash
+# Generate and commit lock file
+npm install
+git add package-lock.json
+# Update workflow to use 'npm ci' and enable cache
+```
 
 ## Adding New Tests
 
