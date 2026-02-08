@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.3",
     "info": {
-        "title": "jalali",
+        "title": "nc-jalali",
         "version": "0.0.1",
         "description": "Adds Jalali (Shamsi) Support to NextCloud",
         "license": {
@@ -47,7 +47,7 @@
         }
     },
     "paths": {
-        "/ocs/v2.php/apps/jalali/api": {
+        "/ocs/v2.php/apps/nc-jalali/api": {
             "get": {
                 "operationId": "api-index",
                 "summary": "An example API endpoint",
