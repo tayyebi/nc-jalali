@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-02-08
+
+### Changed
+
+- Extended Nextcloud compatibility to support versions 29-31 (including Nextcloud Hub 10)
+
+## [1.0.0] - 2024-06-28
+
 ### Added
 
 - First release
