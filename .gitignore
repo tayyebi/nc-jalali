@@ -1,0 +1,29 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Build artifacts
+/build/
+/dist/
+/js/
+
+# Composer temp files
+vendor/composer/tmp-*.zip~
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Composer lock (optional - some projects commit this)
+# composer.lock
