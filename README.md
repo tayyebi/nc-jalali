@@ -1,5 +1,7 @@
 # Jalali
 
+[![Automated Tests](https://github.com/tayyebi/nc-jalali/actions/workflows/tests.yml/badge.svg)](https://github.com/tayyebi/nc-jalali/actions/workflows/tests.yml)
+
 A Nextcloud app that adds Jalali (Shamsi/Persian) calendar support to NextCloud.
 
 Jalali is the most accurate solar calendar widely used in Iran and the middle east.
@@ -30,7 +32,9 @@ npm install
 
 This project includes automated tests that run via GitHub Actions on every push and pull request.
 
-For detailed testing and contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+📖 **For comprehensive testing documentation, see [TESTING.md](TESTING.md)**
+
+For contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 #### Quick Test Run
 
