@@ -30,6 +30,20 @@ npm install
 
 This project includes automated tests that run via GitHub Actions on every push and pull request.
 
+For detailed testing and contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+#### Quick Test Run
+
+```bash
+# Run all tests with the test runner script
+./run-tests.sh
+
+# Run specific test suites
+./run-tests.sh php    # PHP tests only
+./run-tests.sh js     # JavaScript tests only
+./run-tests.sh lint   # Linting only
+```
+
 #### Run All Tests
 
 ```bash
