@@ -1,5 +1,5 @@
 {
-	"name": "nextcloud/jalali",
+	"name": "nextcloud/nc-jalali",
 	"description": "Jalali is the most accurate solar calendar widely used in Iran and middle east.",
 	"license": "AGPL-3.0-or-later",
 	"authors": [

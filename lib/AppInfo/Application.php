@@ -11,12 +11,12 @@ use OCP\AppFramework\Bootstrap\IBootstrap;
 use OCP\AppFramework\Bootstrap\IRegistrationContext;
 
 class Application extends App implements IBootstrap {
-	public const APP_ID = 'jalali';
+	public const APP_ID = 'nc-jalali';
 
 	/** @psalm-suppress PossiblyUnusedMethod */
 	public function __construct() {
 		parent::__construct(self::APP_ID);
-		Util::addScript(self::APP_ID, 'jalali');
+		Util::addScript(self::APP_ID, 'main');
 	}
 
 	public function register(IRegistrationContext $context): void {

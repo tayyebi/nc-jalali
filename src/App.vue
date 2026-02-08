@@ -1,6 +1,6 @@
 <template>
 	<NcAppContent>
-		<div id="jalali">
+		<div id="nc-jalali">
 			<h1>Hello world!</h1>
 		</div>
 	</NcAppContent>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-#jalali {
+#nc-jalali {
 	display: flex;
 	justify-content: center;
 	margin: 16px;

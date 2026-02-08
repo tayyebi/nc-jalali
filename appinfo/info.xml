@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-	<id>jalali</id>
+	<id>nc-jalali</id>
 	<name>Jalali</name>
 	<summary>Adds Jalali (Shamsi) Support to NextCloud</summary>
 	<description>Jalali is the most accurate solar calendar widely used in Iran and middle east.</description>
@@ -19,9 +19,9 @@
 	</dependencies>
 	<navigations>
 		<navigation>
-			<id>jalali</id>
+			<id>nc-jalali</id>
 			<name>Jalali</name>
-			<route>jalali.page.index</route>
+			<route>nc-jalali.page.index</route>
 			<icon>app.svg</icon>
 			<type>link</type>
 		</navigation>
